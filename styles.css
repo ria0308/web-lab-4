@@ -1,0 +1,17 @@
+body{
+    background-color: #8AB5C5;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.blue-text{
+    flex-direction: column;
+    border: solid white;
+}
+.white-text{
+    background-color: white;
+    flex-direction: column;
+    border: solid white;
+}
