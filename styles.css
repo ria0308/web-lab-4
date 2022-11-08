@@ -9,9 +9,34 @@ body{
 .blue-text{
     flex-direction: column;
     border: solid white;
+    color: white;
+}
+.blue-text-header{
+    color: white;
 }
 .white-text{
     background-color: white;
     flex-direction: column;
     border: solid white;
+    color: black;
+}
+.white-text-header {
+    color: #8AB5C5;
+}
+.images{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.top-image{
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 2px white solid;
+}
+.bottom-image{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    border: 2px white solid;
 }
